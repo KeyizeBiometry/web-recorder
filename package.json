@@ -1,0 +1,28 @@
+{
+  "name": "web-recorder",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Frontend JS recorder for Keyize",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KeyizeBiometry/web-recorder.git"
+  },
+  "keywords": [],
+  "author": "Ethan Davis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KeyizeBiometry/web-recorder/issues"
+  },
+  "homepage": "https://github.com/KeyizeBiometry/web-recorder",
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "babel-preset-minify": "^0.5.1"
+  }
+}
