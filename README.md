@@ -3,7 +3,22 @@
 
 # Usage
 
-...
+First, you must embed the recorder script into the page.
+
+```js
+// Create an instance
+const myRec = new Recorder()
+
+// Bind to an element, eg. textarea / input type="text"
+myRec.track(document.querySelector("#myinput"))
+
+// Later, export the recording
+myRec.exportV1()
+// => string recording in Keyize V1 format
+
+// If you would like, reset the recording
+myRec.reset()
+```
 
 # Build
 

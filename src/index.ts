@@ -116,9 +116,11 @@ class Recorder {
 	reset() {
 		this.events = []
 		this.startTime = null
+		this.lastDownUpperCase = []
+		this.keysDown = {}
 	}
 
-	export() {
+	exportV1() {
 		let builtExport = ""
 
 		this.events.forEach((e) => {
