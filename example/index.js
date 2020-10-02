@@ -3,7 +3,7 @@ const rec = new Recorder()
 rec.track(document.querySelector("textarea"))
 
 const exportData = () => {
-	alert(rec.export())
+	alert(rec.exportV1())
 
 	rec.reset()
 }
